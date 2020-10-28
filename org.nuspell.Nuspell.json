@@ -42,14 +42,14 @@
       "buildsystem": "cmake",
       "config-opts": [
         "-DBUILD_TESTING=OFF",
-        "-DBUILD_SHARED_LIBS=ON",
+        "-DCMAKE_BUILD_TYPE=Release",
         "-DBOOST_ROOT=/app"
       ],
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/nuspell/nuspell/archive/v3.1.2.tar.gz",
-          "sha256": "f59f8a27e97047f30659182f244daca8e05e052710c0ea5d845c2cb00f6c6eca"
+          "url": "https://github.com/nuspell/nuspell/archive/v4.0.0.tar.gz",
+          "sha256": "4ab548c7a0d3e10ce68598ce8954d60dd2dd2c9a377e4597fc310127905dee2c"
         }
       ]
     }
