@@ -4,6 +4,11 @@
   "runtime-version": "19.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "nuspell",
+  "cleanup": [
+    "/include",
+    "/lib/cmake",
+    "/lib/pkgconfig"
+  ],
   "modules" : [
     {
       "name": "boost",
@@ -48,8 +53,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/nuspell/nuspell/archive/v4.0.0.tar.gz",
-          "sha256": "4ab548c7a0d3e10ce68598ce8954d60dd2dd2c9a377e4597fc310127905dee2c"
+          "url": "https://github.com/nuspell/nuspell/archive/v4.0.1.tar.gz",
+          "sha256": "e1883c919ec2878ffe2e47acf28eec352322e71b1a0511ccadf9c15fdfc30a0d"
         }
       ]
     }
