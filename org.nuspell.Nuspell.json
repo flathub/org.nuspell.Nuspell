@@ -3,13 +3,24 @@
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "19.08",
   "sdk": "org.freedesktop.Sdk",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Locale"
+  ],
+  "platform-extensions": [
+    "org.gnome.Platform.Locale"
+  ],
+  "separate-locales": false,
   "command": "nuspell",
+  "finish-args": [
+    "--env=DICPATH=/usr/share/hunspell:/app/usr/share/hunspell",
+    "--filesystem=/usr/share/hunspell:ro"
+  ],
   "cleanup": [
     "/include",
     "/lib/cmake",
     "/lib/pkgconfig"
   ],
-  "modules" : [
+  "modules": [
     {
       "name": "boost",
       "buildsystem": "simple",
