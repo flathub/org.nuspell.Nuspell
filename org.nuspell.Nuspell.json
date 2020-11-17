@@ -12,8 +12,7 @@
   "separate-locales": false,
   "command": "nuspell",
   "finish-args": [
-    "--env=DICPATH=/usr/share/hunspell:/app/usr/share/hunspell",
-    "--filesystem=/usr/share/hunspell:ro"
+    "--env=DICPATH=/var/run/host/usr/share/hunspell:/var/run/host/usr/local/share/hunspell:/app/usr/share/hunspell"
   ],
   "cleanup": [
     "/include",
