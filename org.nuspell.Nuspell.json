@@ -3,8 +3,11 @@
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "19.08",
   "sdk": "org.freedesktop.Sdk",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Locale"
+  ],
   "platform-extensions": [
-    "org.gnome.Platform.Locale"
+    "org.freedesktop.Platform.Locale"
   ],
   "separate-locales": false,
   "command": "nuspell",
