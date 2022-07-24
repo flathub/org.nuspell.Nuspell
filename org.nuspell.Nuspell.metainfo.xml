@@ -26,7 +26,7 @@
         <li>Free and open source software. Licensed under GNU LGPL v3 or later.</li>
     </ul>
   </description>
-  
+
   <url type="homepage">https://nuspell.github.io/</url>
   <url type="bugtracker">https://github.com/nuspell/nuspell/issues</url>
 
@@ -58,8 +58,9 @@
     <library>libnuspell.so.4</library>
     <binary>nuspell</binary>
   </provides>
-  
+
   <releases>
+    <release date="2022-02-15" version="5.1.0"/>
     <release date="2021-06-12" version="5.0.0"/>
     <release date="2020-12-12" version="4.2.0"/>
     <release date="2020-11-19" version="4.1.0"/>
