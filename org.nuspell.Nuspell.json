@@ -11,6 +11,9 @@
   ],
   "separate-locales": false,
   "command": "nuspell",
+  "finish-args": [
+      "--filesystem=home:ro"
+   ],
   "cleanup": [
     "/include",
     "/lib/cmake",
