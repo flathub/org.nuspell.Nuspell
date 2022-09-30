@@ -1,7 +1,7 @@
 {
   "app-id": "org.nuspell.Nuspell",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "21.08",
+  "runtime-version": "22.08",
   "sdk": "org.freedesktop.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Locale"
@@ -44,8 +44,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/nuspell/nuspell/archive/refs/tags/v5.1.1.tar.gz",
-          "sha256": "a65cc7414f0123630bd13b7739eda51484b29f6402086b2db7e0deb846083bb0"
+          "url": "https://github.com/nuspell/nuspell/archive/refs/tags/v5.1.2.tar.gz",
+          "sha256": "82f5f2faa82df30099555dca94b3a908d38fdba408e31e74535c523f7e6ea18d"
         }
       ]
     }
