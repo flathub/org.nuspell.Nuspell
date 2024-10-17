@@ -1,7 +1,7 @@
 {
   "app-id": "org.nuspell.Nuspell",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "22.08",
+  "runtime-version": "24.08",
   "sdk": "org.freedesktop.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Locale"
@@ -36,7 +36,7 @@
     },
     {
       "name": "nuspell",
-      "buildsystem": "cmake",
+      "buildsystem": "cmake-ninja",
       "config-opts": [
         "-DBUILD_TESTING=OFF",
         "-DBUILD_DOCS=OFF",
