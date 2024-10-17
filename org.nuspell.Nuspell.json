@@ -1,7 +1,7 @@
 {
   "app-id": "org.nuspell.Nuspell",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "22.08",
+  "runtime-version": "24.08",
   "sdk": "org.freedesktop.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Locale"
@@ -36,16 +36,17 @@
     },
     {
       "name": "nuspell",
-      "buildsystem": "cmake",
+      "buildsystem": "cmake-ninja",
       "config-opts": [
         "-DBUILD_TESTING=OFF",
+        "-DBUILD_DOCS=OFF",
         "-DCMAKE_BUILD_TYPE=Release"
       ],
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/nuspell/nuspell/archive/refs/tags/v5.1.2.tar.gz",
-          "sha256": "82f5f2faa82df30099555dca94b3a908d38fdba408e31e74535c523f7e6ea18d"
+          "url": "https://github.com/nuspell/nuspell/archive/refs/tags/v5.1.6.tar.gz",
+          "sha256": "5d4baa1daf833a18dc06ae0af0571d9574cc849d47daff6b9ce11dac0a5ded6a"
         }
       ]
     }
