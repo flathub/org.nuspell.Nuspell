@@ -3,7 +3,11 @@
   <id>org.nuspell.Nuspell</id>
 
   <name>Nuspell</name>
-  <summary>spelling checker</summary>
+  <summary>Spelling checker</summary>
+
+  <developer id="org.nuspell">
+    <name>Nuspell team</name>
+  </developer>
 
   <metadata_license>MIT</metadata_license>
   <project_license>LGPL-3.0+</project_license>
@@ -29,6 +33,7 @@
 
   <url type="homepage">https://nuspell.github.io/</url>
   <url type="bugtracker">https://github.com/nuspell/nuspell/issues</url>
+  <url type="vcs-browser">https://github.com/nuspell/nuspell</url>
 
   <keywords>
     <keyword>spelling checker</keyword>
@@ -39,10 +44,11 @@
   </keywords>
 
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image type="source">
-        https://raw.githubusercontent.com/nuspell/nuspell.github.io/master/assets/images/cover.png
+        https://nuspell.github.io/assets/images/cover.png
       </image>
+      <caption>Screenshot</caption>
     </screenshot>
   </screenshots>
 
