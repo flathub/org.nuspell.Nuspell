@@ -66,6 +66,7 @@
   </provides>
 
   <releases>
+    <release date="2025-11-25" version="5.1.7"/>
     <release date="2024-07-04" version="5.1.6"/>
     <release date="2024-07-03" version="5.1.5"/>
     <release date="2023-11-08" version="5.1.4"/>
